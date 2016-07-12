@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace JMLoc15.Models
 {
@@ -31,6 +27,8 @@ namespace JMLoc15.Models
         public string YouTubeID { get; set; }
         [DataType(DataType.Url)]
         public string InstagramID { get; set; }
+        public string Hobbies { get; set; }
+        public string Espectatives { get; set; }
 
     }
 }
